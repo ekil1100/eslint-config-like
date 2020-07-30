@@ -1,0 +1,51 @@
+{
+  "name": "eslint-config-like",
+  "version": "1.0.0",
+  "author": {
+    "name": "Like",
+    "email": "keithleaves@gmail.com",
+    "url": "https://lastingman.com"
+  },
+  "repository": "https://github.com/lastingman/eslint-config-like",
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "prettier"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "files": [
+    "typescript.js",
+    "react.js"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "prepublishOnly": "standard-version && git push --follow-tags origin master"
+  },
+  "peerDependencies": {
+    "eslint": ">= 7",
+    "prettier": ">= 2"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^3.7.1",
+    "@typescript-eslint/parser": "^3.7.1",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-react": "^7.20.5",
+    "eslint-plugin-react-hooks": "^4.0.8",
+    "eslint-plugin-standard": "^4.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.5.0",
+    "prettier": "^2.0.5",
+    "standard-version": "^8.0.2",
+    "typescript": "^3.9.7"
+  }
+}
