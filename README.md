@@ -13,3 +13,17 @@ module.exports = {
   extends: ['like', 'like/typescript', 'like/react'],
 }
 ```
+
+If you are using mixed codebase with `js` and `ts`, you can do:
+
+```js
+module.exports = {
+  extends: ['like', 'like/react'],
+  overrides: [
+    {
+      files: ['*.ts', '*.tsx'],
+      extends: ['like/typescript'],
+    },
+  ],
+}
+```
