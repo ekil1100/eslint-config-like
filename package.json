@@ -22,7 +22,7 @@
     "access": "public"
   },
   "scripts": {
-    "prepublishOnly": "standard-version && git push --follow-tags origin master"
+    "release": "standard-version && git push --follow-tags origin master"
   },
   "peerDependencies": {
     "eslint": ">= 7",
