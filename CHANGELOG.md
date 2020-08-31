@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.4.0](https://github.com/lastingman/eslint-config-like/compare/v1.3.0...v1.4.0) (2020-08-31)
+
+
+### Features
+
+* add eslint plugin import ([44a8a82](https://github.com/lastingman/eslint-config-like/commit/44a8a8265799d3cddd60e5b93595b5885569c5f8))
+
 ## [1.3.0](https://github.com/lastingman/eslint-config-like/compare/v1.2.2...v1.3.0) (2020-08-27)
 
 
