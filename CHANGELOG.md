@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.5.0](https://github.com/lastingman/eslint-config-like/compare/v1.4.0...v1.5.0) (2020-09-03)
+
+
+### Features
+
+* jsx import withoutextension ([180139c](https://github.com/lastingman/eslint-config-like/commit/180139cdf0bcbd9c5deceaeeb115548b3b6b7d94))
+
 ## [1.4.0](https://github.com/lastingman/eslint-config-like/compare/v1.3.0...v1.4.0) (2020-08-31)
 
 
