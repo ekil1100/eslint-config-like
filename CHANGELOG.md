@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.6.0](https://github.com/lastingman/eslint-config-like/compare/v1.5.0...v1.6.0) (2021-01-29)
+
+
+### Features
+
+* add eslint-import-resolver-typescript config to import tsconfig ([ae59c03](https://github.com/lastingman/eslint-config-like/commit/ae59c03f1e672244d09d47f0c572686787359499))
+* add nextjs config ([3ef2ccd](https://github.com/lastingman/eslint-config-like/commit/3ef2ccd1df790dea16aa03bc5e235966ccee9519))
+
 ## [1.5.0](https://github.com/lastingman/eslint-config-like/compare/v1.4.0...v1.5.0) (2020-09-03)
 
 
