@@ -19,5 +19,4 @@ module.exports = {
     ecmaVersion: 2019,
     sourceType: 'module',
   },
-  rules: {},
 }
