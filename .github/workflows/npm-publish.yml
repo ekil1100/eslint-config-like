@@ -29,7 +29,7 @@ jobs:
           node-version: 12
           registry-url: 'https://npm.pkg.github.com'
           scope: '@lastingman'
-      - run: npm config set registry 'https://npm.pkg.github.com'
+      - run: npm config set '@lastingman:registry' 'https://npm.pkg.github.com'
       - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
