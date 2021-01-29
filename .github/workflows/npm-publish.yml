@@ -27,7 +27,7 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: 12
-      - run: echo "@example:registry=https://npm.pkg.github.com" > ~/.npmrc
+      - run: echo "@lastingman:registry=https://npm.pkg.github.com" > ~/.npmrc
       - run: echo "//npm.pkg.github.com/:_authToken=$NODE_AUTH_TOKEN" > ~/.npmrc
       - run: npm publish
         env:
