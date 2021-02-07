@@ -1,4 +1,6 @@
 # eslint-config-like
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fekilzen%2Feslint-config-like.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fekilzen%2Feslint-config-like?ref=badge_shield)
+
 
 Personal eslint config.
 
@@ -27,3 +29,7 @@ module.exports = {
   ],
 }
 ```
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fekilzen%2Feslint-config-like.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fekilzen%2Feslint-config-like?ref=badge_large)
