@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.7.0](https://github.com/ekilzen/eslint-config-like/compare/v1.6.1...v1.7.0) (2021-03-01)
+
+
+### Features
+
+* add vue config ([7087f5f](https://github.com/ekilzen/eslint-config-like/commit/7087f5fdd54f5b1356595bb6db6524b54826c760))
+
 ### [1.6.1](https://github.com/lastingman/eslint-config-like/compare/v1.6.0...v1.6.1) (2021-01-29)
 
 ## [1.6.0](https://github.com/lastingman/eslint-config-like/compare/v1.5.0...v1.6.0) (2021-01-29)
