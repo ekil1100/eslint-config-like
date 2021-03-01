@@ -27,3 +27,11 @@ module.exports = {
   ],
 }
 ```
+
+For Vue project (not works with Vue3)
+
+```js
+module.exports = {
+  extends: ['like', 'like/vue'],
+}
+```
