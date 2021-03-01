@@ -19,13 +19,16 @@
   "files": [
     "typescript.js",
     "react.js",
-    "nextjs.js"
+    "nextjs.js",
+    "vue.js"
   ],
   "publishConfig": {
     "access": "public"
   },
   "scripts": {
-    "release": "standard-version && git push --follow-tags origin master"
+    "release": "standard-version",
+    "patch": "standard-version --release-as patch",
+    "push": "git push --follow-tags origin master"
   },
   "peerDependencies": {
     "eslint": ">= 7",

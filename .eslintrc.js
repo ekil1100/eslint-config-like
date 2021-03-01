@@ -1,3 +1,3 @@
 module.exports = {
-  extends: ['./index', './typescript', './react', './vue'],
+  extends: ['./index', './vue'],
 }
