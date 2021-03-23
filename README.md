@@ -28,7 +28,7 @@ module.exports = {
 }
 ```
 
-For Vue project (not works with Vue3)
+For Vue project (only works with Vue3)
 
 ```js
 module.exports = {
