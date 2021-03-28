@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.8.0](https://github.com/ekilzen/eslint-config-like/compare/v1.7.1...v1.8.0) (2021-03-28)
+
+
+### Features
+
+* add svelte3 config ([1ad959b](https://github.com/ekilzen/eslint-config-like/commit/1ad959be9cbfcb800737cb205d68dc2d7373e8f6))
+
 ### [1.7.1](https://github.com/ekilzen/eslint-config-like/compare/v1.7.0...v1.7.1) (2021-03-01)
 
 ## [1.7.0](https://github.com/ekilzen/eslint-config-like/compare/v1.6.1...v1.7.0) (2021-03-01)
