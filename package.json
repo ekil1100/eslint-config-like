@@ -12,7 +12,10 @@
     "config",
     "prettier",
     "react",
-    "vue"
+    "vue",
+    "vue3",
+    "svelte",
+    "svelte3"
   ],
   "license": "MIT",
   "main": "index.js",
@@ -20,7 +23,8 @@
     "typescript.js",
     "react.js",
     "nextjs.js",
-    "vue.js"
+    "vue.js",
+    "svelte.js"
   ],
   "publishConfig": {
     "access": "public"
@@ -48,6 +52,7 @@
     "eslint-plugin-react": "^7.22.0",
     "eslint-plugin-react-hooks": "^4.2.0",
     "eslint-plugin-standard": "^5.0.0",
+    "eslint-plugin-svelte3": "^3.1.2",
     "eslint-plugin-vue": "^7.6.0"
   },
   "devDependencies": {
