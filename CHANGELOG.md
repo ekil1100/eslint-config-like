@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.8.3](https://github.com/ekilzen/eslint-config-like/compare/v1.8.2...v1.8.3) (2021-03-31)
+
+
+### Bug Fixes
+
+* change nextjs config ([42995f8](https://github.com/ekilzen/eslint-config-like/commit/42995f87f13d0bb6e7d597eb2a9d4f336080d936))
+
 ### [1.8.2](https://github.com/ekilzen/eslint-config-like/compare/v1.8.1...v1.8.2) (2021-03-29)
 
 ### [1.8.1](https://github.com/ekilzen/eslint-config-like/compare/v1.8.0...v1.8.1) (2021-03-29)
