@@ -68,11 +68,13 @@ module.exports = {
 
 ### Svelte3
 
+Svelte require prettier plugin to format `.svelte` files.
+
 ```
-yarn add -D eslint prettier prettier-plugin-svelte
+yarn add -D prettier-plugin-svelte
 ```
 
-Use [eslint-plugin-svelte3](https://github.com/sveltejs/eslint-plugin-svelte3). It need svelte-prepocess to parse code.
+Using [eslint-plugin-svelte3](https://github.com/sveltejs/eslint-plugin-svelte3).
 
 ```js
 module.exports = {
@@ -93,6 +95,58 @@ module.exports = {
   ],
   settings: {
     'svelte3/typescript': require('typescript'),
+  },
+}
+```
+
+### Useful tricks
+
+#### Recommended `.prettierrc`
+
+```json
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": true,
+  "printWidth": 90,
+  "quoteProps": "as-needed",
+  "semi": false,
+  "singleQuote": true,
+  "tabWidth": 2,
+  "trailingComma": "all",
+  "useTabs": false
+}
+```
+
+#### Babel parser
+
+Sometimes, you may need add babel as parser for new language features. See [babel-eslint-parser](https://github.com/babel/babel/tree/main/eslint/babel-eslint-parser) for more information.
+
+```js
+module.exports = {
+  parser: '@babel/eslint-parser',
+}
+```
+
+#### Typescript path resolver
+
+To enable typescript path resolvers in `.js` files, you can do this:
+
+```js
+module.exports = {
+  extends: ['like', 'like/react'],
+  overrides: [
+    {
+      files: ['*.ts', '*.tsx'],
+      extends: ['like/typescript'],
+    },
+  ],
+  settings: {
+    'import/resolver': {
+      typescript: {},
+    },
   },
 }
 ```
