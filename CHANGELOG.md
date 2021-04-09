@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.0.0](https://github.com/ekilzen/eslint-config-like/compare/v1.8.4...v2.0.0) (2021-04-09)
+
+
+### ⚠ BREAKING CHANGES
+
+* add react global and remove nextjs config
+
+### Features
+
+* add react global and remove nextjs config ([f9fccf6](https://github.com/ekilzen/eslint-config-like/commit/f9fccf68fde61222d3f71172eaf861291aa2dc86))
+
 ### [1.8.4](https://github.com/ekilzen/eslint-config-like/compare/v1.8.3...v1.8.4) (2021-04-08)
 
 ### [1.8.3](https://github.com/ekilzen/eslint-config-like/compare/v1.8.2...v1.8.3) (2021-03-31)
