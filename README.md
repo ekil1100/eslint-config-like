@@ -30,20 +30,6 @@ module.exports = {
 }
 ```
 
-#### Next.js
-
-```js
-module.exports = {
-  extends: ['like', 'like/react', 'like/nextjs'],
-  overrides: [
-    {
-      files: ['*.ts', '*.tsx'],
-      extends: ['like/typescript'],
-    },
-  ],
-}
-```
-
 ### Vue3
 
 ```js
@@ -150,3 +136,17 @@ module.exports = {
   },
 }
 ```
+
+#### No need `import React from 'react'`?
+
+If you are using react 17, you don't need to import React for JSX. See https://reactjs.org/blog/2020/09/22/introducing-the-new-jsx-transform.html#removing-unused-react-imports.
+
+```js
+module.exports = {
+  globals: {
+    React: 'readonly',
+  },
+}
+```
+
+This is default when you using `like/react`.

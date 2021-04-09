@@ -11,4 +11,7 @@ module.exports = {
       typescript: {},
     },
   },
+  rules: {
+    'no-use-before-define': 0,
+  },
 }

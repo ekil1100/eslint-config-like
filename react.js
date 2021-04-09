@@ -1,9 +1,5 @@
 module.exports = {
-  extends: [
-    'plugin:react/recommended',
-    'plugin:jsx-a11y/recommended',
-    'prettier/react',
-  ],
+  extends: ['plugin:react/recommended', 'plugin:jsx-a11y/recommended', 'prettier/react'],
   plugins: ['react-hooks'],
   rules: {
     'react-hooks/rules-of-hooks': 'error',
@@ -18,5 +14,8 @@ module.exports = {
         extensions: ['.js', '.jsx'],
       },
     },
+  },
+  globals: {
+    React: 'readonly',
   },
 }
