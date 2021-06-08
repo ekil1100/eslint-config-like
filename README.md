@@ -54,13 +54,11 @@ module.exports = {
 
 ### Svelte3
 
-Svelte require prettier plugin to format `.svelte` files.
+[eslint-plugin-svelte3](https://github.com/sveltejs/eslint-plugin-svelte3) require prettier plugin to format `.svelte` files.
 
 ```
-yarn add -D prettier-plugin-svelte
+yarn add -D prettier-plugin-svelte eslint-plugin-svelte3
 ```
-
-Using [eslint-plugin-svelte3](https://github.com/sveltejs/eslint-plugin-svelte3).
 
 ```js
 module.exports = {
