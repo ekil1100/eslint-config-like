@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.1.1](https://github.com/ekilzen/eslint-config-like/compare/v2.1.0...v2.1.1) (2021-06-17)
+
+
+### Bug Fixes
+
+* prettier ([f47a67c](https://github.com/ekilzen/eslint-config-like/commit/f47a67c8704545c6c6fcca861980f18e8b1ed4b0))
+
 ## [2.1.0](https://github.com/ekilzen/eslint-config-like/compare/v2.0.1...v2.1.0) (2021-06-17)
 
 
