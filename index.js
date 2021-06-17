@@ -9,7 +9,6 @@ module.exports = {
     'plugin:import/errors',
     'plugin:import/warnings',
     'plugin:prettier/recommended',
-    'prettier/standard',
   ],
   globals: {
     Atomics: 'readonly',
@@ -18,5 +17,8 @@ module.exports = {
   parserOptions: {
     ecmaVersion: 12,
     sourceType: 'module',
+  },
+  rules: {
+    'no-console': ['error', { allow: ['warn', 'error'] }],
   },
 }

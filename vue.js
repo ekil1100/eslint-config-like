@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ['plugin:vue/vue3-recommended', 'prettier/vue'],
+  extends: ['plugin:vue/vue3-recommended'],
   rules: {
     /**
      * FIXME This should not be right

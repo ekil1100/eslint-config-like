@@ -5,5 +5,5 @@ export function args(a, b, c) {
 const b = [1, 2, 3, 4]
 
 for (const a in b) {
-  console.log(a)
+  console.warn(a)
 }
