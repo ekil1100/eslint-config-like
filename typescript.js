@@ -12,6 +12,7 @@ module.exports = {
     },
   },
   rules: {
-    'no-use-before-define': 0,
+    'no-use-before-define': 'off',
+    '@typescript-eslint/explicit-module-boundary-types': 'off',
   },
 }
