@@ -6,8 +6,7 @@ module.exports = {
   },
   extends: [
     'standard',
-    'plugin:import/errors',
-    'plugin:import/warnings',
+    'plugin:import/recommended',
     'plugin:prettier/recommended',
   ],
   globals: {
@@ -15,10 +14,7 @@ module.exports = {
     SharedArrayBuffer: 'readonly',
   },
   parserOptions: {
-    ecmaVersion: 12,
+    ecmaVersion: 'latest',
     sourceType: 'module',
-  },
-  rules: {
-    'no-console': ['error', { allow: ['warn', 'error'] }],
   },
 }
