@@ -1,4 +1,3 @@
-// ref https://github.com/antfu/eslint-config/blob/master/packages/basic/index.js
 module.exports = {
   env: {
     es6: true,
@@ -26,10 +25,6 @@ module.exports = {
     },
   },
   overrides: [
-    {
-      files: ['*.ts'],
-      extends: ['./ts'],
-    },
     {
       files: ['*.json', '*.json5'],
       parser: 'jsonc-eslint-parser',

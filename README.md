@@ -16,6 +16,14 @@ module.exports = {
 }
 ```
 
+with typescript
+
+```js
+module.exports = {
+  extends: ['like/ts'],
+}
+```
+
 ### React
 
 ```js
@@ -24,11 +32,19 @@ module.exports = {
 }
 ```
 
-### Next.js
+with typescript
 
 ```js
 module.exports = {
-  extends: ['like/next'],
+  extends: ['like/react-ts'],
+}
+```
+
+with next.js
+
+```js
+module.exports = {
+  extends: ['like/react', 'like/next'],
 }
 ```
 
@@ -39,6 +55,14 @@ Default to vue3.
 ```js
 module.exports = {
   extends: ['like/vue'],
+}
+```
+
+with typescript
+
+```js
+module.exports = {
+  extends: ['like/vue-ts'],
 }
 ```
 
@@ -125,3 +149,5 @@ module.exports = {
 If you are using react 17, you don't need to import React for JSX. See https://reactjs.org/blog/2020/09/22/introducing-the-new-jsx-transform.html#removing-unused-react-imports.
 
 ⚠ It is default after v4.
+
+<!-- https://github.com/antfu/eslint-config/blob/master/packages/basic/index.js -->

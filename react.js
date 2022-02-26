@@ -15,10 +15,4 @@ module.exports = {
       node: { extensions: ['.js', '.jsx', '.mjs'] },
     },
   },
-  overrides: [
-    {
-      files: ['*.ts', '*.tsx'],
-      extends: ['./ts'],
-    },
-  ],
 }

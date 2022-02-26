@@ -1,3 +1,3 @@
 module.exports = {
-  extends: ['./react', 'plugin:@next/next/recommended'],
+  extends: ['plugin:@next/next/recommended'],
 }
