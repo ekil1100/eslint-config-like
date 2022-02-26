@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [4.0.0](https://github.com/ekilzen/eslint-config-like/compare/v3.1.0...v4.0.0) (2022-02-26)
+
+
+### ⚠ BREAKING CHANGES
+
+* react config
+* change api of ts config
+* remove prettier from index, and add rules
+
+### Features
+
+* change api of ts config ([fe9fda1](https://github.com/ekilzen/eslint-config-like/commit/fe9fda1a138ed456acf722b47a5a10e3410db219))
+* react config ([5df7771](https://github.com/ekilzen/eslint-config-like/commit/5df7771b3a25fafd81bd94261b09137749f69594))
+* remove prettier from index, and add rules ([0d98bf6](https://github.com/ekilzen/eslint-config-like/commit/0d98bf69ac07ff021950131cd07a9b6bcc635354))
+
 ## [3.1.0](https://github.com/ekilzen/eslint-config-like/compare/v3.0.0...v3.1.0) (2021-11-14)
 
 
