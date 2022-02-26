@@ -20,7 +20,7 @@ module.exports = {
 
 ```js
 module.exports = {
-  extends: ['like/typescript'],
+  extends: ['like/ts'],
 }
 ```
 
@@ -28,21 +28,15 @@ module.exports = {
 
 ```js
 module.exports = {
-  extends: ['like', 'like/typescript', 'like/react'],
+  extends: ['like/react'],
 }
 ```
 
-If you are using mixed codebase with `js` and `ts`, you can do:
+with TypeScript
 
 ```js
 module.exports = {
-  extends: ['like', 'like/react'],
-  overrides: [
-    {
-      files: ['*.ts', '*.tsx'],
-      extends: ['like/typescript'],
-    },
-  ],
+  extends: ['like/react-ts'],
 }
 ```
 

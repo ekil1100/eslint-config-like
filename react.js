@@ -7,7 +7,7 @@ module.exports = {
   ],
   plugins: ['react', 'react-hooks', 'jsx-a11y'],
   settings: {
-    react: {
+    'react': {
       version: 'detect',
     },
     'import/resolver': {

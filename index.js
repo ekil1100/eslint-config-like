@@ -75,12 +75,6 @@ module.exports = {
         ],
       },
     },
-    {
-      files: ['*.d.ts'],
-      rules: {
-        'import/no-duplicates': 'off',
-      },
-    },
   ],
   rules: {
     // code style
