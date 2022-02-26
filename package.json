@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-like",
-  "version": "4.0.0",
+  "version": "4.0.1",
   "author": {
     "name": "Like Zheng",
     "email": "me@likemail.io",
@@ -17,6 +17,7 @@
   "files": [
     "react.js",
     "vue.js",
+    "ts.js",
     "next.js"
   ],
   "main": "index.js",
