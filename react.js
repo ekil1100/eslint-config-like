@@ -1,5 +1,6 @@
 module.exports = {
   extends: [
+    './index',
     'plugin:react/recommended',
     'plugin:react/jsx-runtime',
     'plugin:react-hooks/recommended',
@@ -11,9 +12,13 @@ module.exports = {
       version: 'detect',
     },
     'import/resolver': {
-      node: {
-        extensions: ['.js', '.jsx'],
-      },
+      node: { extensions: ['.js', '.jsx', '.mjs'] },
     },
   },
+  overrides: [
+    {
+      files: ['*.ts', '*.tsx'],
+      extends: ['./ts'],
+    },
+  ],
 }

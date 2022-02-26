@@ -20,7 +20,16 @@ module.exports = {
     ecmaVersion: 'latest',
     sourceType: 'module',
   },
+  settings: {
+    'import/resolver': {
+      node: { extensions: ['.js', '.mjs'] },
+    },
+  },
   overrides: [
+    {
+      files: ['*.ts'],
+      extends: ['./ts'],
+    },
     {
       files: ['*.json', '*.json5'],
       parser: 'jsonc-eslint-parser',

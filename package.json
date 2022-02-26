@@ -8,23 +8,16 @@
   },
   "keywords": [
     "eslint",
-    "config",
+    "eslint-config",
     "react",
-    "vue",
-    "vue3",
-    "svelte",
-    "svelte3",
-    "linter",
-    "lint",
-    "formatter"
+    "vue"
   ],
   "license": "MIT",
   "repository": "https://github.com/ekilzen/eslint-config-like",
   "files": [
-    "typescript.js",
     "react.js",
     "vue.js",
-    "svelte.js"
+    "next.js"
   ],
   "main": "index.js",
   "publishConfig": {
@@ -39,6 +32,7 @@
     "eslint": ">= 8"
   },
   "dependencies": {
+    "@next/eslint-plugin-next": "^12.1.0",
     "@typescript-eslint/eslint-plugin": "^5.12.1",
     "@typescript-eslint/parser": "^5.12.1",
     "eslint-config-standard": "^16.0.3",

@@ -1,6 +1,6 @@
 # eslint-config-like
 
-Personal eslint config.
+Personal eslint config. Supports typeScript, react, vue, next.js.
 
 ## Usage
 
@@ -8,19 +8,11 @@ Personal eslint config.
 pnpm add -D eslint eslint-config-like
 ```
 
-### For JavaScript Only
+### Basic
 
 ```js
 module.exports = {
   extends: ['like'],
-}
-```
-
-### For TypeScript
-
-```js
-module.exports = {
-  extends: ['like/ts'],
 }
 ```
 
@@ -32,36 +24,25 @@ module.exports = {
 }
 ```
 
-with TypeScript
+### Next.js
 
 ```js
 module.exports = {
-  extends: ['like/react-ts'],
+  extends: ['like/next'],
 }
 ```
 
-### Vue3
+### Vue
+
+Default to vue3.
 
 ```js
 module.exports = {
-  extends: ['like', 'like/vue'],
+  extends: ['like/vue'],
 }
 ```
 
-With typescript
-
-```js
-module.exports = {
-  extends: ['like', 'like/vue'],
-  overrides: [
-    {
-      files: ['*.ts', '*.vue'],
-      extends: ['like/typescript'],
-    },
-  ],
-}
-```
-
+<!--
 ### Svelte3
 
 [eslint-plugin-svelte3](https://github.com/sveltejs/eslint-plugin-svelte3) require prettier plugin to format `.svelte` files.
@@ -91,30 +72,31 @@ module.exports = {
     'svelte3/typescript': require('typescript'),
   },
 }
-```
+``` -->
 
-### Useful tricks
+## Tips
 
-#### Recommended `.prettierrc`
+### VSCode Settings
 
 ```json
 {
-  "arrowParens": "always",
-  "bracketSpacing": true,
-  "endOfLine": "lf",
-  "jsxBracketSameLine": false,
-  "jsxSingleQuote": true,
-  "printWidth": 90,
-  "quoteProps": "as-needed",
-  "semi": false,
-  "singleQuote": true,
-  "tabWidth": 2,
-  "trailingComma": "all",
-  "useTabs": false
+  "eslint.format.enable": true,
+  "eslint.validate": [
+    "vue",
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "svelte",
+    "json",
+    "json5",
+    "yaml",
+    "yml"
+  ]
 }
 ```
 
-#### Babel parser
+### Babel parser
 
 Sometimes, you may need add babel as parser for new language features. See [babel-eslint-parser](https://github.com/babel/babel/tree/main/eslint/babel-eslint-parser) for more information.
 
@@ -124,19 +106,12 @@ module.exports = {
 }
 ```
 
-#### Typescript path resolver
+### Typescript path resolver
 
-To enable typescript path resolvers in `.js` files, you can do this:
+To enable typescript path resolvers in `.js` files, you can add settings:
 
 ```js
 module.exports = {
-  extends: ['like', 'like/react'],
-  overrides: [
-    {
-      files: ['*.ts', '*.tsx'],
-      extends: ['like/typescript'],
-    },
-  ],
   settings: {
     'import/resolver': {
       typescript: {},
@@ -145,16 +120,8 @@ module.exports = {
 }
 ```
 
-#### No need `import React from 'react'`?
+### No need `import React from 'react'`?
 
 If you are using react 17, you don't need to import React for JSX. See https://reactjs.org/blog/2020/09/22/introducing-the-new-jsx-transform.html#removing-unused-react-imports.
 
-```js
-module.exports = {
-  globals: {
-    React: 'readonly',
-  },
-}
-```
-
-This is default when you using `like/react`.
+⚠ It is default after v4.
