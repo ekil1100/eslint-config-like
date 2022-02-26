@@ -2,29 +2,31 @@
   "name": "eslint-config-like",
   "version": "3.1.0",
   "author": {
-    "name": "Ekil",
+    "name": "Like Zheng",
     "email": "me@likemail.io",
-    "url": "https://blog.ekil.io"
+    "url": "https://ekil.io"
   },
-  "repository": "https://github.com/ekilzen/eslint-config-like",
   "keywords": [
     "eslint",
     "config",
-    "prettier",
     "react",
     "vue",
     "vue3",
     "svelte",
-    "svelte3"
+    "svelte3",
+    "linter",
+    "lint",
+    "formatter"
   ],
   "license": "MIT",
-  "main": "index.js",
+  "repository": "https://github.com/ekilzen/eslint-config-like",
   "files": [
     "typescript.js",
     "react.js",
     "vue.js",
     "svelte.js"
   ],
+  "main": "index.js",
   "publishConfig": {
     "access": "public"
   },
@@ -34,32 +36,34 @@
     "push": "git push --follow-tags origin master"
   },
   "peerDependencies": {
-    "eslint": ">= 8",
-    "prettier": ">= 2"
+    "eslint": ">= 8"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.3.1",
-    "@typescript-eslint/parser": "^5.3.1",
-    "eslint-config-prettier": "^8.3.0",
+    "@typescript-eslint/eslint-plugin": "^5.12.1",
+    "@typescript-eslint/parser": "^5.12.1",
     "eslint-config-standard": "^16.0.3",
     "eslint-import-resolver-typescript": "^2.5.0",
-    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-eslint-comments": "^3.2.0",
+    "eslint-plugin-html": "^6.2.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-jsonc": "^2.2.1",
     "eslint-plugin-jsx-a11y": "^6.5.1",
     "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-prettier": "^4.0.0",
-    "eslint-plugin-promise": "^5.1.1",
-    "eslint-plugin-react": "^7.27.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-react": "^7.29.1",
     "eslint-plugin-react-hooks": "^4.3.0",
-    "eslint-plugin-vue": "^8.0.3"
+    "eslint-plugin-unicorn": "^41.0.0",
+    "eslint-plugin-vue": "^8.5.0",
+    "eslint-plugin-yml": "^0.14.0"
   },
   "devDependencies": {
-    "@types/react": "^17.0.34",
-    "eslint": "^8.2.0",
-    "eslint-plugin-svelte3": "^3.2.1",
-    "prettier": "^2.4.1",
+    "@types/react": "^17.0.39",
+    "eslint": "^8.10.0",
+    "eslint-plugin-svelte3": "^3.4.1",
+    "prettier": "^2.5.1",
     "react": "^17.0.2",
     "standard-version": "^9.3.2",
-    "svelte": "^3.44.1",
-    "typescript": "^4.4.4"
+    "svelte": "^3.46.4",
+    "typescript": "^4.5.5"
   }
 }

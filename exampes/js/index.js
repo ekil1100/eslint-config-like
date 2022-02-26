@@ -1,9 +1,13 @@
 export function args(a, b, c) {
-  return a
+  if (a === 1) {
+    return 2
+  }
+
+  if (b === 2) return 3
 }
 
-const b = [1, 2, 3, 4]
-
-for (const a in b) {
-  console.warn(a)
+function fn(obj) {
+  obj = { x: 'a' }
 }
+
+fn()

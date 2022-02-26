@@ -5,7 +5,23 @@ Personal eslint config.
 ## Usage
 
 ```bash
-yarn add -D eslint prettier eslint-config-like
+pnpm add -D eslint eslint-config-like
+```
+
+### For JavaScript Only
+
+```js
+module.exports = {
+  extends: ['like'],
+}
+```
+
+### For TypeScript
+
+```js
+module.exports = {
+  extends: ['like/typescript'],
+}
 ```
 
 ### React
