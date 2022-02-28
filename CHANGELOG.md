@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [4.2.0](https://github.com/ekilzen/eslint-config-like/compare/v4.1.1...v4.2.0) (2022-02-28)
+
+
+### Features
+
+* add some styling rules ([1abb774](https://github.com/ekilzen/eslint-config-like/commit/1abb7744d1bd77915f768cf263fdf6a4c06787ff))
+
 ### [4.1.1](https://github.com/ekilzen/eslint-config-like/compare/v4.1.0...v4.1.1) (2022-02-28)
 
 ## [4.1.0](https://github.com/ekilzen/eslint-config-like/compare/v4.0.3...v4.1.0) (2022-02-28)
