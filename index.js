@@ -104,6 +104,9 @@ module.exports = {
     // opinionated
     'eqeqeq': ['error', 'smart'],
     'no-alert': 'warn',
+    'no-console': ['error', { allow: ['warn', 'error'] }],
+    'no-debugger': 'error',
+    'no-use-before-define': ['error', { functions: false, classes: false, variables: true }],
 
     // unicorns
     // Pass error message when throwing errors

@@ -12,8 +12,24 @@ module.exports = {
     },
   },
   rules: {
+    '@typescript-eslint/type-annotation-spacing': 'error',
+
+    // override JS
+    'no-useless-constructor': 'off',
+    'indent': 'off',
+    '@typescript-eslint/indent': ['error', 2],
+    'no-unused-vars': 'off',
+    '@typescript-eslint/no-unused-vars': 'error',
+    'no-redeclare': 'off',
+    '@typescript-eslint/no-redeclare': 'error',
     // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-use-before-define.md
-    '@typescript-eslint/no-use-before-define': ['error'],
-    '@typescript-eslint/type-annotation-spacing': ['error'],
+    'no-use-before-define': 'off',
+    '@typescript-eslint/no-use-before-define': ['error', { functions: false, classes: false, variables: true }],
+    'brace-style': 'off',
+    '@typescript-eslint/brace-style': ['error', 'stroustrup', { allowSingleLine: true }],
+    'comma-dangle': 'off',
+    '@typescript-eslint/comma-dangle': ['error', 'always-multiline'],
+    'object-curly-spacing': 'off',
+    '@typescript-eslint/object-curly-spacing': ['error', 'always'],
   },
 }
