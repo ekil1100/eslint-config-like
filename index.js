@@ -101,6 +101,10 @@ module.exports = {
         'array-bracket-newline': ['error', { multiline: true }],
         'object-property-newline': ['error', { allowAllPropertiesOnSameLine: true }],
         'indent': ['error', 4],
+        'arrow-parens': ['error', 'as-needed', { requireForBlockBody: true }],
+        'jsx-quotes': ['error', 'prefer-double'],
+        'newline-per-chained-call': ['error', { ignoreChainWithDepth: 2 }],
+        'space-infix-ops': ['error', { int32Hint: false }],
 
         // opinionated
         'eqeqeq': ['error', 'smart'],
