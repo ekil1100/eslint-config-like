@@ -1,9 +1,9 @@
 module.exports = {
-  extends: ['./index'],
-  overrides: [
-    {
-      files: ['*.ts'],
-      extends: ['./ts-config'],
-    },
-  ],
+    extends: ['./index'],
+    overrides: [
+        {
+            files: ['*.ts'],
+            extends: ['./ts-config'],
+        },
+    ],
 }

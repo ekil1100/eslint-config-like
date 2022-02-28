@@ -1,3 +1,3 @@
 module.exports = {
-  extends: ['../../ts'],
+    extends: ['../../ts'],
 }

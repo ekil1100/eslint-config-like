@@ -1,9 +1,9 @@
 module.exports = {
-  extends: ['./index'],
-  overrides: [
-    {
-      files: ['*.svelte'],
-      processro: 'svelte3/svelte3',
-    },
-  ],
+    extends: ['./index'],
+    overrides: [
+        {
+            files: ['*.svelte'],
+            processro: 'svelte3/svelte3',
+        },
+    ],
 }

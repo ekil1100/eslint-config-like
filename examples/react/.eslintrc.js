@@ -1,3 +1,3 @@
 module.exports = {
-  extends: ['like/react'],
+    extends: ['like/react'],
 }
