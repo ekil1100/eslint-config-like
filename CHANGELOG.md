@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [4.1.0](https://github.com/ekilzen/eslint-config-like/compare/v4.0.3...v4.1.0) (2022-02-28)
+
+
+### Features
+
+* change indent to 4 spaces ([b18b50f](https://github.com/ekilzen/eslint-config-like/commit/b18b50f0b1ba33729a67ed66e43f62b86e7970f0))
+
 ### [4.0.3](https://github.com/ekilzen/eslint-config-like/compare/v4.0.2...v4.0.3) (2022-02-28)
 
 
