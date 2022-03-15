@@ -100,7 +100,7 @@ module.exports = {
         ],
         'array-bracket-newline': ['error', { multiline: true }],
         'object-property-newline': ['error', { allowAllPropertiesOnSameLine: true }],
-        'indent': ['error', 4],
+        'indent': ['error', 4, { SwitchCase: 1 }],
         'arrow-parens': ['error', 'as-needed', { requireForBlockBody: true }],
         'jsx-quotes': ['error', 'prefer-double'],
         'newline-per-chained-call': ['error', { ignoreChainWithDepth: 2 }],

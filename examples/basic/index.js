@@ -8,6 +8,10 @@ export function args(a, b, c) {
 
 function fn(obj) {
     obj = { x: 'a' }
+    switch (obj) {
+        case 1:
+            break
+    }
 }
 
 fn()

@@ -1,24 +1,28 @@
 function a() {
-  return 2
+    return 2
 }
 
 a()
 
 export function b() {
-  return 2
+    return 2
 }
 
 export function args(a: number, b: number) {
-  if (a === 1) {
-    return 2
-  }
+    if (a === 1) {
+        return 2
+    }
 
-  if (b === 2) return 3
+    if (b === 2) return 3
 }
 
 function fn(obj: unknown) {
-  obj = { x: 'a' }
-  return obj
+    obj = { x: 'a' }
+    switch (obj) {
+        case 1:
+            break
+    }
+    return obj
 }
 
 fn({})
