@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [4.2.1](https://github.com/ekilzen/eslint-config-like/compare/v4.2.0...v4.2.1) (2022-03-15)
+
+
+### Bug Fixes
+
+* switch case indent ([5339c70](https://github.com/ekilzen/eslint-config-like/commit/5339c7085433b321a80b9aa77245bf14be83237b))
+
 ## [4.2.0](https://github.com/ekilzen/eslint-config-like/compare/v4.1.1...v4.2.0) (2022-02-28)
 
 
