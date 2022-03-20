@@ -13,6 +13,7 @@ module.exports = {
     },
     rules: {
         '@typescript-eslint/type-annotation-spacing': 'error',
+        '@typescript-eslint/no-explicit-any': ['error', { fixToUnknown: true }],
 
         // override JS
         'no-useless-constructor': 'off',
