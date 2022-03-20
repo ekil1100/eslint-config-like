@@ -8,7 +8,7 @@ export function b() {
     return 2
 }
 
-export function args(a: number, b: number) {
+export function args(a: unknown, b: number) {
     if (a === 1) {
         return 2
     }
