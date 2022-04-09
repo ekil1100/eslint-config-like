@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [4.4.0](https://github.com/ekilzen/eslint-config-like/compare/v4.3.0...v4.4.0) (2022-04-09)
+
+
+### Features
+
+* disable no-explicit-any ([dd5f3e9](https://github.com/ekilzen/eslint-config-like/commit/dd5f3e9de4aa98700a7f0e1691c91b30bfa6e54a))
+
 ## [4.3.0](https://github.com/ekilzen/eslint-config-like/compare/v4.2.1...v4.3.0) (2022-04-09)
 
 
