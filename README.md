@@ -72,7 +72,7 @@ module.exports = {
 
 ```json
 {
-  "eslint.probe": [
+  "eslint.validate": [
     "javascript",
     "javascriptreact",
     "typescript",
