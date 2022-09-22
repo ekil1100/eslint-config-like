@@ -1,0 +1,23 @@
+{
+    "eslint.probe": [
+        "javascript",
+        "javascriptreact",
+        "typescript",
+        "typescriptreact",
+        "vue",
+        "html",
+        "json",
+        "jsonc",
+        "json5",
+        "yml",
+        "yaml"
+    ],
+    "[javascript][javascriptreact][typescript][typescriptreact]": {
+        "editor.formatOnSave": false,
+        "editor.formatOnPaste": false,
+        "editor.formatOnType": false,
+        "editor.codeActionsOnSave": {
+            "source.fixAll.eslint": true
+        }
+    }
+}

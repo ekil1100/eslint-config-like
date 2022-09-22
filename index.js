@@ -11,10 +11,7 @@ module.exports = {
         'plugin:jsonc/recommended-with-jsonc',
         'plugin:yml/standard',
     ],
-    plugins: [
-        'html',
-        'unicorn',
-    ],
+    plugins: ['html', 'unicorn'],
     parserOptions: {
         ecmaVersion: 'latest',
         sourceType: 'module',
@@ -26,7 +23,7 @@ module.exports = {
     },
     overrides: [
         {
-            files: ['*.json', '*.json5'],
+            files: ['*.json', '*.jsonc', '*.json5'],
             parser: 'jsonc-eslint-parser',
             rules: {
                 'quotes': ['error', 'double'],

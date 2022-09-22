@@ -25,7 +25,10 @@ module.exports = {
         '@typescript-eslint/no-redeclare': 'error',
         // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-use-before-define.md
         'no-use-before-define': 'off',
-        '@typescript-eslint/no-use-before-define': ['error', { functions: false, classes: false, variables: true }],
+        '@typescript-eslint/no-use-before-define': [
+            'error',
+            { functions: false, classes: false, variables: true },
+        ],
         'brace-style': 'off',
         '@typescript-eslint/brace-style': ['error', 'stroustrup'],
         'comma-dangle': 'off',

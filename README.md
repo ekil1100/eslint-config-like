@@ -66,57 +66,33 @@ module.exports = {
 }
 ```
 
-<!--
-### Svelte3
-
-[eslint-plugin-svelte3](https://github.com/sveltejs/eslint-plugin-svelte3) require prettier plugin to format `.svelte` files.
-
-```
-yarn add -D prettier-plugin-svelte eslint-plugin-svelte3
-```
-
-```js
-module.exports = {
-  extends: ['like/svelte'],
-}
-```
-
-With typescript
-
-```js
-module.exports = {
-  extends: ['like/svelte'],
-  overrides: [
-    {
-      files: ['*.ts', '*.svelte'],
-      extends: ['like/typescript'],
-    },
-  ],
-  settings: {
-    'svelte3/typescript': require('typescript'),
-  },
-}
-``` -->
-
 ## Tips
 
 ### VSCode Settings
 
 ```json
 {
-  "eslint.format.enable": true,
-  "eslint.validate": [
-    "vue",
+  "eslint.probe": [
     "javascript",
     "javascriptreact",
     "typescript",
     "typescriptreact",
-    "svelte",
+    "vue",
+    "html",
     "json",
+    "jsonc",
     "json5",
-    "yaml",
-    "yml"
-  ]
+    "yml",
+    "yaml"
+  ],
+  "[javascript][javascriptreact][typescript][typescriptreact]": {
+    "editor.formatOnSave": false,
+    "editor.formatOnPaste": false,
+    "editor.formatOnType": false,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    }
+  }
 }
 ```
 

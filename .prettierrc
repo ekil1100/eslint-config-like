@@ -1,13 +1,16 @@
 {
-  "arrowParens": "always",
-  "bracketSpacing": true,
-  "endOfLine": "lf",
-  "jsxSingleQuote": true,
-  "printWidth": 80,
-  "quoteProps": "as-needed",
-  "semi": false,
-  "singleQuote": true,
-  "tabWidth": 2,
-  "trailingComma": "all",
-  "useTabs": false
+    "jsxSingleQuote": true,
+    "quoteProps": "consistent",
+    "semi": false,
+    "singleQuote": true,
+    "tabWidth": 4,
+    "trailingComma": "all",
+    "overrides": [
+        {
+            "files": ["*.md", "*.yaml", "*.yml"],
+            "options": {
+                "tabWidth": 2
+            }
+        }
+    ]
 }
