@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [5.0.0](https://github.com/ekilzen/eslint-config-like/compare/v4.4.0...v5.0.0) (2022-09-22)
+
+
+### ⚠ BREAKING CHANGES
+
+* add solidJS config
+
+### Features
+
+* add solidJS config ([241ee61](https://github.com/ekilzen/eslint-config-like/commit/241ee6198fa391f5c547731c0e23210a31e5a306))
+
 ## [4.4.0](https://github.com/ekilzen/eslint-config-like/compare/v4.3.0...v4.4.0) (2022-04-09)
 
 
